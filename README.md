@@ -1,7 +1,6 @@
-# ECSD Tech Test
-Welcome to the ECSD Tech Test 
+# QA Technical Test
 
-Please make a clone of this repository
+1. Please make a clone of this repository
 
 ## Running the application
 
@@ -10,15 +9,6 @@ You will need to have [node] and [yarn] both installed on your machine to run th
 
 - Clone this repository and make sure you are in this directory (the one containing `README.md`!)
 - Run `yarn && yarn start` to start the app
-- Visit `localhost:3000` in a browser
-
-### To run the Docker Version of the App 
-
-You will need to have [docker] installed and running to build the image.
-If you are new to docker please read the docker docs in order to understand how to build and run a container.
-
-- `docker build -t ecsd-tech-test .`
-- `docker run -it -p 3000:3000 ecsd-tech-test:latest`
 - Visit `localhost:3000` in a browser
 
 ## Challenge 
@@ -42,13 +32,9 @@ Have your tests start and tear down the app.
 BDD frameworks are great, but are they always appropriate? You decide.
 
 ## Submit your test
-Once completed push the solution up to your own repository and link ECS the url along with run instructions.
-
-## Note
-Please stick to contributing from one account, it makes you look better.
+Once completed push the solution up to your own repository and link us the url along with run instructions.
 
 Good Luck!
 
-[docker]: https://docs.docker.com/get-started/
 [node]: https://nodejs.org/en/
 [yarn]: https://yarnpkg.com/en/
